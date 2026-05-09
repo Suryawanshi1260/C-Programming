@@ -1,23 +1,18 @@
-#include<Stdio.h>
+#include<stdio.h>
 
 int main()
 {
-    //Static memory allocation
-    float Marks[5];      //20 Byte
+    // Static memory allocation
+    float Marks[5];        // 20 bytes
 
-    printf("Enter Your Marks : \n");
+    printf("Enter your marks : \n");
 
-    //Sequence
-    scanf("%f,&Marks[0]);
-    scanf("%f,&Marks[0]);
-    scanf("%f,&Marks[0]);
-    scanf("%f,&Marks[1]);
-    scanf("%f,&Marks[2]);
-    scanf("%f,&Marks[3]);
-    scanf("%f,&Marks[4]);
-
-
-
+    // Sequance
+    scanf("%f",&Marks[0]);
+    scanf("%f",&Marks[1]);
+    scanf("%f",&Marks[2]);
+    scanf("%f",&Marks[3]);
+    scanf("%f",&Marks[4]);
 
     return 0;
 }
